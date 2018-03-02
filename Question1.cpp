@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-//1711140
+
 /*
 Implement Binary search function. Include:
 1. Function that takes in array, size of array and element to be searched. Returns the index of the array where the element is found or -1 if the element is not found. 
@@ -39,7 +39,7 @@ class SLL
    int countItems();
    void display();
 };
-//1711140
+
 
    
    //Adds a new element to the end of the linked list.
@@ -64,7 +64,7 @@ class SLL
    }
 	
 	
-	//1711140
+	
   
 	
 //Deletes the element at the end of the list 
@@ -86,7 +86,7 @@ class SLL
    }
 	
 	
-	//1711140
+	
   
 	   
 
@@ -98,7 +98,7 @@ class SLL
 	   return s; 
    }
    
-   //1711140
+ 
    
 	
 	
@@ -131,7 +131,7 @@ class array
         arr=new int[len];
     }
 };
-//1711140
+
 
 //function to search a sorted array via binarysearch
 
@@ -151,7 +151,7 @@ int binarySearch(int *L,int x, int first, int last)
   return -1;    // failed to find key
 }
 
-//1711140
+
 
 //this function implements binaryserch of linked list through array
 int binSrcLL(SLL l, int key)
@@ -222,4 +222,4 @@ int main()
     return 0;
 }
 
-//1711140
+
